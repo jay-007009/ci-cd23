@@ -10,8 +10,7 @@ dist/
 # Compiled Java class files
 *.class
 
-# Compiled Java class files
-*.terraform
+
 
 # Compiled Python bytecode
 *.py[cod]
