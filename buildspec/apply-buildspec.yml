@@ -1,17 +1,10 @@
 version: 0.2
 phases:
-  pre-build:
+  pre_build:
     commands:
       - terraform init
       - terraform validate
 
   build:
-    commands: 
-     - terraform apply --auto-approve
-
-
-
-
-
-
-
+    commands:
+      - terraform apply --auto-approve

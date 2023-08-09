@@ -83,7 +83,7 @@ resource "aws_codepipeline" "cicd_pipeline" {
 
       configuration = {
         ConnectionArn        = var.codestar_connector_credentials
-        FullRepositoryId     = "ci-cd23"
+        FullRepositoryId     = "jay-007009/ci-cd23"
         BranchName           = "jay"
         OutputArtifactFormat = "CODE_ZIP"
       }
