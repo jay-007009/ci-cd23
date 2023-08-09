@@ -98,7 +98,7 @@ resource "aws_iam_policy" "tf-cicd-build-policy"{
 
 resource "aws_iam_role_policy_attachment" "tf-cicd-codebuild-attachment1" {
     policy_arn = aws_iam_policy.tf-cicd-pipeline-policy.arn
-    role = aws_iam_role.tf-codepipeline-role.id
+    role = aws_iam_role.tf-codepipeline-role.id  
 }
 
 resource "aws_iam_role_policy_attachment" "tf-cicd-codebuild-attachment2" {
