@@ -84,7 +84,7 @@ resource "aws_codepipeline" "cicd_pipeline" {
       configuration = {
         ConnectionArn        = var.codestar_connector_credentials
         FullRepositoryId     = "davoclock/ci-cd23"
-        BranchName           = "master"
+        BranchName           = "jay"
         OutputArtifactFormat = "CODE_ZIP"
       }
     }
