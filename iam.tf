@@ -91,7 +91,7 @@ resource "aws_iam_policy" "tf-cicd-build-policy"{
     name="tf-cicd-build-policy"
     path = "/"
     description="Pipeline policy"
-    policy= data.aws_iam_policy_document.tf-cicd-build-policies.json //tf-cicd-pipeline-policies
+    policy= data.aws_iam_policy_document.tf-cicd-pipeline-policies.json //tf-cicd-pipeline-policies
 
 }
 
